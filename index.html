@@ -5,6 +5,26 @@
         <title>Firebase</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Firebase App is always required and must be first -->
+        <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+        <!-- Add additional services that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+        
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyB-2LjV7DrXiQ1NRaWu28XrUKfd6bjXX3M",
+            authDomain: "project-test-34ea4.firebaseapp.com",
+            databaseURL: "https://project-test-34ea4.firebaseio.com",
+            projectId: "project-test-34ea4",
+            storageBucket: "project-test-34ea4.appspot.com",
+            messagingSenderId: "1026525871449"
+          };
+          firebase.initializeApp(config);
+
+        // Get a reference to the database service
+        var database = firebase.database();
+        </script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
