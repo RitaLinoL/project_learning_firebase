@@ -1,0 +1,6 @@
+txid - identificador único
+parent txid
+rank - 1 a 29, -1 corresponde ao "no rank"
+rank placed - 1: teve o rank adicionado
+sciname
+merged to - txids que tem esta coluna, foi fusionado
